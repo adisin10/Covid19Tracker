@@ -1,0 +1,45 @@
+.state-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .state-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 90px;
+    border-bottom: 1px solid #c75656;
+    width: 900px;
+  }
+  
+  .state-data {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+  
+    min-width: 300px;
+  }
+
+  
+  .state {
+    width: 170px;
+  }
+  
+  .confirmed {
+    width: 170px;
+  }
+  
+  .active {
+    width: 170px;
+  }
+  
+  .recovered {
+    width: 170px;
+  }
+
+  .deceased {
+    width: 170px;
+  }
+  
+ 
